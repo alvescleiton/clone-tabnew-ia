@@ -1,0 +1,4 @@
+# Skills de terceiros gerenciadas via skills-lock.json
+.agents
+.claude
+skills-lock.json

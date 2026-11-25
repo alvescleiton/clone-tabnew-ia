@@ -18,7 +18,11 @@ const mainStyle = {
   fontFamily: "system-ui, sans-serif",
 };
 
-const descriptionStyle = { maxWidth: "40rem", fontSize: "1.25rem", lineHeight: 1.5 };
+const descriptionStyle = {
+  maxWidth: "40rem",
+  fontSize: "1.25rem",
+  lineHeight: 1.5,
+};
 
 async function getTotalContents() {
   try {

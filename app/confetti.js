@@ -6,7 +6,12 @@ import dynamic from "next/dynamic";
 // Carregado sob demanda: o efeito é decorativo e não precisa estar no bundle inicial.
 const ReactConfetti = dynamic(() => import("react-confetti"), { ssr: false });
 
-const confettiStyle = { position: "fixed", top: 0, left: 0, pointerEvents: "none" };
+const confettiStyle = {
+  position: "fixed",
+  top: 0,
+  left: 0,
+  pointerEvents: "none",
+};
 
 export default function Confetti() {
   const [size, setSize] = useState(null);

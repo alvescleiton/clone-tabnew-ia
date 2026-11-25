@@ -19,3 +19,6 @@ As versões exatas estão no `package.json`.
 - `npm run dev`: inicia o servidor de desenvolvimento
 - `npm run build`: gera o build de produção
 - `npm start`: roda o build de produção
+- `npm run lint`: roda o ESLint
+- `npm run format`: formata os arquivos com o Prettier
+- `npm run format:check`: verifica se os arquivos estão formatados
